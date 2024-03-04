@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    height: 350px;
+    width: 290px;
+    border: 1px solid #c6c4c4;
+    border-radius: 20px;
+}
+input{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #f0efef;
+    border-radius: 30px;
+    text-align: right;
+    font-size: 35px;
+    color: #3f3f3f;
+}
+.calc-button{
+    display: flex;
+    justify-content: space-between;
+}
+.triple button{
+    flex-basis: 80px;
+}
+.double button{
+    flex-basis: 80px;
+}
+button{
+    flex-basis: 60px;
+    font-size: 20px;
+    margin: 3px;
+    padding: 10px;
+    border-radius:15px ;
+    border: none;
+    background-color: #efebeb;
+    color: #5c5b5b;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #1d08d6;
+    color: #ffffff;
+}
+.double button:last-child{
+    background-color: #077bff;
+}
+
+.triple button:last-child{
+    background-color: #ff0000;
+    color: #413e3e;
+}
+.n button:last-child{
+    background-color: #fff200;
+
+}
+.m button:last-child{
+    background-color: #09ff00;
+}
+.o button:last-child{
+    background-color: #ffb007;
+}
+button:last-child:hover{
+    background-color: #ff00a2;
+    color:#efebeb ;
+}
